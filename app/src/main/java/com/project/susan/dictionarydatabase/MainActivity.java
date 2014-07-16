@@ -136,5 +136,6 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
         listViewAvailableWords.setVisibility(View.GONE);
         textViewWord.setText(word);
         new GetWordMeaningTypeController(MainActivity.this).execute(word);
+        //to do
     }
 }
